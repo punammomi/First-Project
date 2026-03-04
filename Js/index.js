@@ -74,3 +74,11 @@ console.log(obj3)
 
 obj2.ar1.push("tech")
 console.log(obj2,obj3)
+
+const mySet = new Set()
+mySet.add(88,3)
+mySet.delete(3)
+mySet.has(2)
+mySet.size
+
+console.log(mySet)
