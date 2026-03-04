@@ -71,3 +71,6 @@ const obj2 = {
 
 const obj3 = {...obj, ...obj2}
 console.log(obj3)
+
+obj2.ar1.push("tech")
+console.log(obj2,obj3)
