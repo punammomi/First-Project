@@ -82,3 +82,14 @@ mySet.has(2)
 mySet.size
 
 console.log(mySet)
+
+const myMap = new Map();
+const numberMap = new Map([[1,'one'],[2,'Two']]);
+
+myMap.set(4, 'four')
+myMap.delete(2)
+myMap.has(1)
+myMap.size
+
+console.log(myMap)
+console.log(numberMap)
