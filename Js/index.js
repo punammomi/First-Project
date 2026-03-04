@@ -48,3 +48,8 @@ while(false){
     console.log("hello")
     break
 }
+
+const a1 = [1,2,3,4]
+for (let [i,value] of a1.entries()){
+    console.log(i,value)
+}
