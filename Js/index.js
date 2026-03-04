@@ -93,3 +93,12 @@ myMap.size
 
 console.log(myMap)
 console.log(numberMap)
+
+try{
+    riskyfunction()
+}
+catch(error){
+    console.log("An error occured: ",error.message)
+}finally{
+    console.log("Cleanup code can go there")
+}
