@@ -33,3 +33,6 @@ console.log(arr2.lastIndexOf("l"))
 
 const arr4 = arr.concat(arr3)
 console.log(arr4)
+
+const [a, a2, ...d] = [1,4,6,7,8,9]
+console.log(a, a2, ...d)
