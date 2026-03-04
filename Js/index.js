@@ -25,3 +25,6 @@ const arr = [1,2,3]
 const arr2 = new Array(5)
 console.log(arr)
 
+const arr3 = Array.from("Hiiiiiiiiii")
+console.log(arr3)
+
