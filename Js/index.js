@@ -36,3 +36,15 @@ console.log(arr4)
 
 const [a, a2, ...d] = [1,4,6,7,8,9]
 console.log(a, a2, ...d)
+
+do{
+    console.log("run")
+    break
+}
+
+while(true)
+
+while(true){
+    console.log("hello")
+    break
+}
