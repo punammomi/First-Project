@@ -114,3 +114,7 @@ const users = [
 
 const names = users.map((user) => user.age)
 console.log(names)
+
+const number2 = [4,5,6,8]
+const sum = number2.reduce((acc,num) => acc + num, 0)
+console.log(sum)
