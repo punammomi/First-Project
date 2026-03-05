@@ -134,10 +134,19 @@ const person ={
 person.greet1()
 
 const myPromise = new Promise((resolve, reject) =>{
-    if (true){
-        resolve(value)
+    if (false){
+        resolve("good")
     }
     else{
-        reject(error)
+        reject("bad")
     }
 });
+
+myPromise.then((value) =>
+{
+    console.log(value)
+})
+
+.catch((value) =>{
+    console.log(value)
+})
