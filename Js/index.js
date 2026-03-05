@@ -102,3 +102,7 @@ catch(error){
 }finally{
     console.log("Cleanup code can go there")
 }
+
+const numbers = [1, 3, 6, 88]
+const doubled = numbers.map((num) =>num *2)
+console.log(doubled) 
