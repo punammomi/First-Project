@@ -122,3 +122,13 @@ console.log(sum)
 const number3 = [4,5,6,9]
 const evenNumber = number3.filter((num) => num % 2 === 0 )
 console.log(evenNumber)
+
+const person ={
+    name : "Alice",
+    greet1 () {
+            console.log(`Hello, my name is ${this.name}`)
+    } 
+
+}
+
+person.greet1()
