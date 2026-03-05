@@ -132,3 +132,12 @@ const person ={
 }
 
 person.greet1()
+
+const myPromise = new Promise((resolve, reject) =>{
+    if (true){
+        resolve(value)
+    }
+    else{
+        reject(error)
+    }
+});
